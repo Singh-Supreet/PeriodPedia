@@ -1,0 +1,140 @@
+.period__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.period__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.period__navbar-links-logo {
+    margin-right: 2rem;
+}
+
+.period__navbar-links-logo img {
+    width: 62.56px;
+    height: 65px;
+}
+
+.period_navbar-links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.period__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.period_navbar-links-container p,
+.period__navbar-sign p,
+.period__navbar-menu-container p {
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.period__navbar-sign button,
+.period__navbar-menu-container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.period__navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.period__navbar-menu svg {
+    cursor: pointer;
+}
+
+.period__navbar-menu-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: var(--color-footer);
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.period__navbar-menu-container p {
+    margin: 1 rem 0;
+}
+
+.period__navbar-menu-container-links-sign {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .period_navbar-links-container {
+        display: none;
+    }
+
+    /* iski help se menu button ayega */
+    .period__navbar-menu {
+        display: flex;
+    }
+
+    .period__navbar-menu-container p {
+        padding: 0.7rem 0.1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .period__navbar{
+        padding: 2rem 4rem;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .period__navbar{
+        padding: 2rem;
+    }
+    .period__navbar-sign{
+        display: none;
+    }
+
+    .period__navbar-menu-container{
+        top: 20px;
+    }
+
+    /* Sign Up Wala button add hogeya nichee */
+    .period__navbar-menu-container-links-sign{
+        display: block;
+    }
+}
