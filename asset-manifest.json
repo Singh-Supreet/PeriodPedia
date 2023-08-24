@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PeriodPedia/static/css/main.7b95cf86.css",
-    "main.js": "/PeriodPedia/static/js/main.bb50d3a5.js",
+    "main.css": "/PeriodPedia/static/css/main.2efcf4c1.css",
+    "main.js": "/PeriodPedia/static/js/main.a6febd8a.js",
     "static/media/logo.webp": "/PeriodPedia/static/media/logo.1736afe9191a75af728e.webp",
     "static/media/research5.webp": "/PeriodPedia/static/media/research5.e52e6100604b504d2e18.webp",
     "static/media/research4.jpg": "/PeriodPedia/static/media/research4.e7ff9eb46ed679107596.jpg",
@@ -13,11 +13,11 @@
     "static/media/image2.webp": "/PeriodPedia/static/media/image2.3f125e8ac5d2c2be24e8.webp",
     "static/media/image5.webp": "/PeriodPedia/static/media/image5.b2f5fa86a155fcb995bd.webp",
     "index.html": "/PeriodPedia/index.html",
-    "main.7b95cf86.css.map": "/PeriodPedia/static/css/main.7b95cf86.css.map",
-    "main.bb50d3a5.js.map": "/PeriodPedia/static/js/main.bb50d3a5.js.map"
+    "main.2efcf4c1.css.map": "/PeriodPedia/static/css/main.2efcf4c1.css.map",
+    "main.a6febd8a.js.map": "/PeriodPedia/static/js/main.a6febd8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b95cf86.css",
-    "static/js/main.bb50d3a5.js"
+    "static/css/main.2efcf4c1.css",
+    "static/js/main.a6febd8a.js"
   ]
 }
