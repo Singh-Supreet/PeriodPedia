@@ -1,3 +1,5 @@
+![image](https://github.com/Singh-Supreet/PeriodPedia/assets/98038549/f9d2c91c-4447-47c2-a8f0-c89ba5ad0fb5)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
